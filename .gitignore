@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Raw and processed data
+data/raw/*.csv
+!data/raw/HR_comma_sep.csv
+data/raw/*.xlsx
+data/raw/*.parquet
+data/processed/
+
+# Model binaries and local artifacts
+models/*.joblib
+models/*.pkl
+outputs/
+artifacts/
+
+# Caches and tests
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

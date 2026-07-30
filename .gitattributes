@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Preserve the verified dataset bytes and checksum across platforms
+data/raw/HR_comma_sep.csv -text
