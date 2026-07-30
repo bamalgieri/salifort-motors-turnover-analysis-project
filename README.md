@@ -29,6 +29,10 @@ claims?
 - Evaluated the champion once on a held-out test set.
 - Added bootstrap uncertainty intervals, permutation importance, calibration, and subgroup error review.
 
+## Tools
+
+Python 3.13, pandas, NumPy, SciPy, scikit-learn, XGBoost, Matplotlib, seaborn, and Jupyter.
+
 ## Data validation
 
 | Stage | Rows | Stayed | Left | Departure rate |
