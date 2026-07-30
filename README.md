@@ -181,9 +181,11 @@ The notebook validates the committed raw file's schema, dimensions, target
 counts, missing-value count, duplicate count, and SHA-256 fingerprint before
 running the analysis.
 
-The reported metrics were reproduced on Linux. With the same pinned Python and
-package versions on Windows, XGBoost produced platform-dependent probability
-differences; use Linux when exact metric reproduction is required.
+The saved results were generated on Linux with Python 3.13.5 and the package
+versions listed in `requirements.txt`. The notebook records the operating-system
+and machine details for the executed run. A separate Windows run produced
+different XGBoost probabilities, so exact cross-platform metric equivalence is
+not claimed.
 
 ## Supporting materials
 
