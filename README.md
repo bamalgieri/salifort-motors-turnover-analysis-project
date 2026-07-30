@@ -135,7 +135,7 @@ causal claims.
 ## Repository structure
 
 ```text
-salifort-motors-turnover-analysis/
++ salifort-motors-turnover-analysis-project/
 ├── README.md
 ├── requirements.txt
 ├── .python-version
